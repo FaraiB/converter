@@ -8,7 +8,7 @@
     <title>Unit Converter</title>
 
     <!-- Bootstrap -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -17,19 +17,20 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
   </head>
-  <body>
-    <h1>Unit Converter</h1>
-    <form>
-        <div class="form-group">
+  <body  class="text-center p-3 mb-2 bg-secondary text-white">
+    <h1 class="h3 mb-3 font-weight-normal">Unit Converter</h1>
+      <form > 
+        <div class="form-group col-sm-3 my-1 mx-auto">
           <label for="Miles">Distance in miles</label>
-          <input  class="form-control" id="miles" placeholder="Miles">
+          <input  class="form-control " id="miles" placeholder="Miles">
         </div>
-        <div class="form-group">
+        <div class="form-group col-sm-3 my-1 mx-auto">
           <label for="Meters">Distance in meters</label>
           <input  class="form-control" id="meters" placeholder="Meters">
         </div>
-        <button type="button" id= "calc" class="btn btn-default">Convert!</button>
+        <button type="button" id= "calc" class="btn btn-lg btn-primary btn-block col-sm-3 my-1 mx-auto">Convert!</button>
       </form>
+      <p class="mt-5 mb-3 text-dark ">Developed by Farai Bvuma</p>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ" crossorigin="anonymous"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
